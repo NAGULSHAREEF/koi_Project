@@ -1,0 +1,27 @@
+.FifthSession_card{
+    background-color: #ffffff1c;
+    backdrop-filter: blue(12px);
+    -webkit-backdrop-filter: blur(12px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 304px;
+    height: 338px;
+    padding: 80px;
+    gap: 0px;
+    border-radius: 24px;
+    opacity: 0px;
+    text-align: center;
+    margin: 20px;
+    line-height: 20px;
+}
+.fifthimage_card{
+    height: 70px;
+    width: 70px;
+    margin-bottom: 10px;
+}
+.fifth_P2{
+    font-size: 12px;
+    font-weight: 200;
+}

@@ -1,0 +1,22 @@
+.glass_card_4th{
+    background-color: #ffffff10;
+    backdrop-filter: blue(12px);
+    -webkit-backdrop-filter: blur(12px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 20px; */
+    width: 374px;
+    height: 238px;
+    padding: 30px 20px 92px 19px;
+    gap: 20px;
+    border-radius: 24px;
+    /* border: 0px 0px 8px 0px; */
+    border-bottom: 8px solid #20335E
+}
+.community{
+    font-size: 20px;
+    font-weight: 500;
+}

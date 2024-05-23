@@ -1,0 +1,33 @@
+.container1{
+    background-image: url('/src/images/2ndsectionbg.png');
+    background-size: cover;
+    height: 100vh;
+    /* background-color: #f0f0f0; */
+    box-shadow: 0 10px 20px 10px black;
+    filter: blur(100%);
+    filter: brightness(80%)
+}
+.image_size{
+    height: 80px;
+}
+.card_2nd_item{
+    background-color: #ffffff10;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 20px; */
+    height: 616px;
+    /* width: 1203px; */
+    backdrop-filter: blue(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 10px;
+    margin: 20px 20px;
+
+}
+.h1_text2{
+    max-width: 600px;
+    font-size: 30px;
+    text-align: center;
+}
