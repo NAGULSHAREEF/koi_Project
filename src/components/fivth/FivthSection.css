@@ -42,3 +42,15 @@
     filter: brightness(120%); /* Increase brightness of the cards */
     padding: 10px;
 }
+
+@media (max-width: 390px) {
+    .card {
+        width: 100%; /* Adjust width of the cards for smaller screens */
+    }
+    .fifthsection_card_flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

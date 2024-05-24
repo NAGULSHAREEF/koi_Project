@@ -56,7 +56,7 @@ const Eighth_Section = () => {
                 <img src="/src/images/cat1.png" alt=""  className='cat_img'/>
             </div>
             <div>
-                <p>Random Dude</p>
+                <p className='p_para_eight'>Random Dude</p>
             </div>
             <div>
                 <button className='button_eight'>Buy now</button>
@@ -67,7 +67,7 @@ const Eighth_Section = () => {
                 <img src="/src/images/cat1.png" alt=""  className='cat_img'/>
             </div>
             <div>
-                <p>Random Dude</p>
+                <p className='p_para_eight'>Random Dude</p>
             </div>
             <div>
                 <button className='button_eight'>Buy now</button>
@@ -78,7 +78,7 @@ const Eighth_Section = () => {
                 <img src="/src/images/cat1.png" alt=""  className='cat_img'/>
             </div>
             <div>
-                <p>Random Dude</p>
+                <p className='p_para_eight'>Random Dude</p>
             </div>
             <div>
                 <button className='button_eight'>Buy now</button>
@@ -89,7 +89,7 @@ const Eighth_Section = () => {
                 <img src="/src/images/cat1.png" alt=""  className='cat_img'/>
             </div>
             <div>
-                <p>Random Dude</p>
+                <p className='p_para_eight'>Random Dude</p>
             </div>
             <div>
                 <button className='button_eight'>Buy now</button>
@@ -102,7 +102,7 @@ const Eighth_Section = () => {
                 <img src="/src/images/cat1.png" alt=""  className='cat_img'/>
             </div>
             <div>
-                <p>Random Dude</p>
+                <p className='p_para_eight'>Random Dude</p>
             </div>
             <div>
                 <button className='button_eight'>Buy now</button>
@@ -113,7 +113,7 @@ const Eighth_Section = () => {
                 <img src="/src/images/cat1.png" alt=""  className='cat_img'/>
             </div>
             <div>
-                <p>Random Dude</p>
+                <p className='p_para_eight'>Random Dude</p>
             </div>
             <div>
                 <button className='button_eight'>Buy now</button>
@@ -124,7 +124,7 @@ const Eighth_Section = () => {
                 <img src="/src/images/cat1.png" alt=""  className='cat_img'/>
             </div>
             <div>
-                <p>Random Dude</p>
+                <p className='p_para_eight'>Random Dude</p>
             </div>
             <div>
                 <button className='button_eight'>Buy now</button>
@@ -135,7 +135,7 @@ const Eighth_Section = () => {
                 <img src="/src/images/cat1.png" alt=""  className='cat_img'/>
             </div>
             <div>
-                <p>Random Dude</p>
+                <p className='p_para_eight'>Random Dude</p>
             </div>
             <div>
                 <button className='button_eight'>Buy now</button>

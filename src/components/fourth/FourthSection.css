@@ -45,3 +45,37 @@
     filter: brightness(60%);
     z-index: 0; /* Ensure image is below the cards */
 }
+
+@media (max-width: 390px) {
+    .displaying_cards {
+        flex-direction: column; /* Change to column layout on smaller screens */
+    }
+
+    .bottom-right-image1 {
+        display: none; /* Hide the image on smaller screens */
+    }
+    .Benifits {
+        font-size: 20px; /* Decrease font size for smaller screens */
+    }
+    .displaying_cards {
+        flex-direction: column; /* Change to column layout on smaller screens */
+        gap: 10px; /* Decrease space between cards */
+    }
+    .glass_card_4th {
+        background-color: #ffffff10;
+        backdrop-filter: blue(12px);
+        -webkit-backdrop-filter: blur(12px);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        /* padding: 20px; */
+        width: 274px;
+        height: 138px;
+        padding: 30px 20px 92px 19px;
+        gap: 20px;
+        border-radius: 24px;
+        border-bottom: 8px solid #20335E;
+    }
+}

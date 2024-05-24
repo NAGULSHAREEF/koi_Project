@@ -23,11 +23,31 @@
     backdrop-filter: blue(12px);
     -webkit-backdrop-filter: blur(12px);
     border-radius: 10px;
-    margin: 20px 20px;
 
 }
 .h1_text2{
     max-width: 600px;
     font-size: 30px;
     text-align: center;
+}
+
+@media (max-width: 390px) {
+    .container1 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .card_2nd_item {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .h1_text2 {
+        font-size: 18px; /* Decrease font size */
+        max-width: 100%; /* Ensure text container is responsive */
+    }
+
+    .image_size {
+        height: 60px; /* Decrease image size */
+    }
 }

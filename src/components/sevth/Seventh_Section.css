@@ -1,13 +1,14 @@
 .sevth_section{
     background-image: url(/src/images/sevth_section.png);
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     box-shadow: 0 10px 20px 10px black;
+    padding: 10px;
 }
 .img_short{
     height: 30px;
@@ -39,5 +40,33 @@
 
 .seventh_h1{
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 300;
+}
+
+@media (max-width: 390px) {
+    .seventh_h1 {
+        font-size: 24px;
+        text-align: center; /* Further decrease font size */
+    }
+
+    .seventh_img {
+        height: 150px; /* Decrease image height for smaller screens */
+    }
+
+    .img_short {
+        height: 15px; /* Decrease image height for smaller screens */
+    }
+    .seventh_3rd_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sevth_flexing_second{
+       margin-left: 110px;
+        align-items: left;
+    }
+    .sevth_section{
+        gap: 20px;
+    }
 }

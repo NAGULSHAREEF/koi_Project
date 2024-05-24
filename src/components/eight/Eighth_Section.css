@@ -48,3 +48,47 @@
     display: flex;
     flex-wrap: wrap;
 }
+@media (max-width: 390px) {
+    .eight_part {
+        justify-content: space-between; /* Display two cards in a line */
+    }
+
+    .eight_section_card {
+        width: calc(50% - 20px); /* Adjust card width for two cards in a line */
+    }
+    .eight_section_card {
+        max-width: 120px;
+        height: 170px;
+        background-image: url(/src/images/pentagon.png);
+        background-size: cover;
+        position: relative;
+        animation: shadow-animation 2s infinite alternate;
+        border-radius: 0 0 250px 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px;
+        margin: 10px;
+    }
+    .eight_part {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100%;
+    }
+    .p1_eight{
+        text-align: center;
+    }
+    .cat_img {
+        height: 60px;
+    }
+    .p_para_eight{
+        font-size: 12px;
+    }
+    .button_eight{
+        width: 50px;
+    height: 30px;
+    font-size: 8px;
+    }
+}
