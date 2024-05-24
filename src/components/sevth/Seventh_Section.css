@@ -1,0 +1,43 @@
+.sevth_section{
+    background-image: url(/src/images/sevth_section.png);
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 10px 20px 10px black;
+}
+.img_short{
+    height: 30px;
+}
+
+.sevth_flexing_second{
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+}
+
+.sevth_flexing_second_part{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.seventh_img{
+    height: 300px;
+}
+
+.seventh_3rd_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.seventh_h1{
+    font-size: 40px;
+    font-weight: 400;
+}

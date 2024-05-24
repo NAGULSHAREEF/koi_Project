@@ -25,7 +25,7 @@ const FirstSection = () => {
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
         </div>
         <div className='first_line_card'>
-            <div className='contact_address'><h1 className='contact'>CONTACT ADDRESS</h1></div>
+            <div className='contact_address'><h1 className='contact1'>CONTACT ADDRESS</h1></div>
             <div><form action="#" className='form_container'><input type="text" value="ASDSFSAFSAFSSFASFASFSFSFAS" className='input_text'/></form></div>
             <div><button className='btn_copy'>COPY</button></div>
         </div>

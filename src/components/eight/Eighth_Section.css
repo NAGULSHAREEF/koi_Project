@@ -1,0 +1,50 @@
+.eight_section{
+    background-image: url(/src/images/eight_sectionbg.png);
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 10px 20px 10px black;
+    padding-bottom: 20px;
+}
+.p1_eight{
+    text-align: center;
+    padding: 20px;
+}
+.eight_section_card {
+    width: 200px;
+    height: 300px;
+    background-image: url('/src/images/pentagon.png');
+    background-size: cover;
+    position: relative;
+    animation: shadow-animation 2s infinite alternate; /* Add animation */
+    border-radius: 0 0 250px 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding: 20px; 
+}
+.cat_img {
+    height: 90px;
+}
+
+.button_eight{
+    background-color: rgb(42, 31, 53);
+    padding: 10px;
+    width: 60px;
+    height: 40px;
+    font-size: 13px;
+    border: none;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.eight_part{
+    display: flex;
+    flex-wrap: wrap;
+}

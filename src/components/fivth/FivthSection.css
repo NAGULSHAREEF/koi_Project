@@ -1,19 +1,44 @@
-.Fifth_section{
-    background-image: url(/src/images/fivth_bg.png);
+.Fifth_section {
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
     box-shadow: 0 10px 20px 10px black;
-    /* margin-bottom: 50px; */
-    padding-bottom: 50px;
+    overflow: hidden;
+    background: none; /* Remove direct background image */
 }
 
-.fifthsection_card_flex{
+.Fifth_section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/src/images/fivth_bg.png');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+    z-index: 0; /* Ensure it's behind everything */
+}
+
+.header, .fifthsection_card_flex {
+    position: relative;
+    z-index: 2; /* Ensure these elements are above the background */
+}
+
+.fifthsection_card_flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
 
+.card {
+    filter: brightness(120%); /* Increase brightness of the cards */
+    padding: 10px;
 }

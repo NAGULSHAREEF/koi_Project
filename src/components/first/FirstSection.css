@@ -72,7 +72,7 @@ body, html {
     align-items: center;
     line-height: 30px;
 }
-.contact{
+.contact1{
     font-size: 20px;
 }
 
@@ -82,6 +82,7 @@ body, html {
     justify-content: flex-end;
     gap: 10px;
     align-items: center;
+    
 }
 .contact_address {
     flex: 1;
@@ -98,6 +99,7 @@ body, html {
     align-items: center;
     margin-top: 20px;
     border-radius: 15px;
+    border: 2px solid white;
 }
 
 .input_text {
@@ -127,4 +129,8 @@ span{
     right: 0;
     height: 461px;
     width: 250px;
+}
+
+@media (max-width: 390px) {
+    
 }
